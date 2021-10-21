@@ -31,7 +31,7 @@ function Moviecard({ movie }) {
                 <div className="textinfo">
                     <h3 className = "title">{movie.title}</h3>
                     <h4 className="realeasedate">{movie.release_date ? (movie.release_date.substring(0,4)) : "-"}</h4>
-                    <p className = "discription">{movie.overview.substring(0,200)+'......'}</p>
+                    <p className = "discription">{movie.overview.substring(0,100)+'......'}</p>
                 </div>
                 <div>
                     <button  className="button" disabled = { watchListDisabled } onClick = { ONCLICK }>ADD TO WATCHLIST</button>

@@ -16,14 +16,14 @@
 
 .inputcontainer
 {
-    width: 420px;
+    width: 50%;
     margin-top: 70px;
     margin-bottom: 30px;
 }
 
 .inputcontainer input
 {
-    width: 420px;
+    width: 100%;
     height: 40px;
     border-radius: 10px;
     outline: none;

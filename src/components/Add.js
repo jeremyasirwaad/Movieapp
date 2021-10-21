@@ -34,7 +34,7 @@ function Add() {
         <div>
             <div className="addpagecontainer">
                 <div className = 'inputcontainer'>
-                    <input type="text" value = {query} placeholder = "Seach for a movie" onChange = {onchange} />
+                    <input type="text" value = {query} placeholder = "Search for a movie" onChange = {onchange} />
                 </div>
                 <div className="movielists">
                     {movieresults.length > 0 && (
