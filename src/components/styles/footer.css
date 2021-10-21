@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.footercontainer
+{   
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #222831;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    bottom: 0;
+}
+
+.footertitle
+{
+    color: #FFD369;
+}

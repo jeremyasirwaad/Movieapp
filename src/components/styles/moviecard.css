@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container
+{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.poster
+{
+    height: 250px;
+
+}
+
+.cardinfo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+.textinfo
+{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.button
+{
+    background-color: #FFD369;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+
+.discription{
+    font-size: 12px;
+    margin-top: 10px;
+}

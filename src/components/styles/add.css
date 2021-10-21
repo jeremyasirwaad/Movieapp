@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.addpagecontainer
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.inputcontainer
+{
+    width: 420px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.inputcontainer input
+{
+    width: 420px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border:oldlace;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    background-color: #222831;
+    color: white;
+    padding-left: 30px;
+}
+
+.inputcontainer input::placeholder
+{
+    color: white;
+    padding-left: -30px;
+}
+
+.movielists
+{
+    width: 70%;
+    margin-top: 30px;
+}
