@@ -33,7 +33,7 @@
 .links
 {
     display: flex;
-    width: 45%;
+    width: 65%;
     justify-content: space-around;
 }
 
@@ -55,3 +55,19 @@
 
 }
 
+@media only screen and (max-width:600px) {
+    .logotxt
+    {
+        font-size: 17px;
+    }
+
+    .linkbtns
+    {
+        font-size: 14px;
+    }
+
+    .addbutton
+    {
+        font-size: 14px;
+    }
+}

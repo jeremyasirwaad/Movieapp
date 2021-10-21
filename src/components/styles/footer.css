@@ -21,3 +21,11 @@
 {
     color: #FFD369;
 }
+
+@media only screen and (max-width:600px) {
+    .footertitle
+    {
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
